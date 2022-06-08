@@ -12,6 +12,11 @@ const config: HardhatUserConfig = {
     localhost: {
       chainId: 31337
     },
+    AuroraTestnet: {
+      url: "https://testnet.aurora.dev",
+      chainId: 1313161555,
+      // accounts: [privateKey]
+    },
   },
   solidity: {
     version: "0.8.9",

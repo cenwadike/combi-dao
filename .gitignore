@@ -1,5 +1,6 @@
 .secret
 .infuraid
+.vscode
 
 # dependencies
 /node_modules
@@ -31,12 +32,17 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
+deployments
+typechain*
+
 # vercel
 .vercel
 
 node_modules
 
 package-lock.json
+
+.git*
 
 #Hardhat files
 cache
